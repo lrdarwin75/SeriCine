@@ -46,6 +46,7 @@ require_once(__DIR__ . '/../../Controllers/LanguageController.php');
         {
     ?>
             <?php
+            echo $languageResult;
                 switch ($languageResult) {
                     case 'erased':
             ?>
